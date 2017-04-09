@@ -1,0 +1,53 @@
+
+# SEO settings
+title: "Minh"
+title2: "Hoang" # default: ""
+description: "Personal Blog"
+keywords: "iOS, Swift, developer, programmer, Full Stack, Web application, data mining, data science, writer"
+url: http://minhhoangtcu.github.io/ # site url
+baseurl: "" # apply repo name if use it under gh-pages branch
+# baseurl: null # apply null if repo name is something like username.github.io
+
+google_analytics: UA-XXXXX-XX
+comments: true
+
+# Build settings
+permalink   : /:year/:title/
+markdown    : kramdown
+highlighter : rouge
+
+source: ./
+destination: ./_site
+
+# Sass configuration
+sass:
+  sass_dir: assets/scss
+  style: compressed # expanded
+
+# Author settings
+author:
+  name     : "Minh Hoang"
+  job      : "Student"
+  email    : minh.hoang@tcu.edu
+  url      : http://minhhoangtcu.github.io
+  github   : http://github.com/minhhoangtcu
+  facebook : https://www.facebook.com/minhhoangtcu
+  linkedin : http://linkedin.com/in/minhhoangtcu
+
+# social settings
+og_locale: "en_US"
+twitter_card: ""
+twitter_site: ""
+
+gems:
+  - bourbon
+  - jekyll-paginate
+
+# navbar pages
+navbar:
+  - slug : about
+    title: About
+  - slug : blog
+    title: Blog
+
+exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]

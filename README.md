@@ -1,5 +1,3 @@
-# Minh Hoang's website and blog
+# Glenn Vu's webs
 
-[Click here to go to the site](https://minhhoangtcu.github.io)
-
-[Click here to go to the blog](https://minhhoangtcu.github.io/blog/)
+[Click here to go to the site](https://gvuclarku.github.io/)
